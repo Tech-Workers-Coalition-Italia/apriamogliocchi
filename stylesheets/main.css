@@ -61,7 +61,6 @@ h4 {
   position: relative;
   text-indent: -99999px;
   width: 58px;
-  margin-top: 0.25em;
   margin-left: 12px;
 }
 
@@ -187,6 +186,13 @@ h4 {
   width: 30%}
 
 .posimage .image {max-width: 80%; padding-top: 200%; background-image: url("../images/occhioAperto.svg");background-size: 100% 100%;background-repeat: no-repeat; background-position: 100% 100%; margin: 0 auto}
+
+
+.pospoints div,
+.negpoints div {
+  height: 120px;
+  
+}
 
 /*Joinbox*/
 .joincontainer {display: flex;
@@ -371,6 +377,18 @@ footer a {
     margin: 0.2em 0;
   }
 
+  .pospoints div,
+  .negpoints div {
+    height: auto;
+    
+  }
+
+  .pospoints h2,
+  .negpoints h2 {
+    margin-top: 20px;
+    
+  }
+
 }
 
 @media screen and (max-width: 915px) {
@@ -379,8 +397,13 @@ footer a {
   }
 }
 
-
-
+@media screen and (min-width: 1400px) {
+  .pospoints div,
+  .negpoints div {
+    height: 120px;
+    
+  }
+}
 /* Mobile */
 
 .mobilenegimage {
